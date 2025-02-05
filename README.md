@@ -22,71 +22,20 @@ This is a simple React site that I created to learn React. It is a single page s
 
 ## Live Site
 
-The live site can be found [here](https://react-info-site-one.vercel.app/)
+The live site can be found [here](https://messams-scrimba-react-info-site.netlify.app/).
 
 ## About this Course
 
-This project was created as part of the [React for Beginners](https://reactforbeginners.com/) course by Wes Bos.
+This project was created as part of the [Learn React](https://scrimba.com/learn-react-c0e) course by Bob Ziroll.
 
 ## What I Learned
 
-1. Why do we need to `import React from "react"` in our files?
+1- Why you should care about React
+2- Setting up a React project
+3- JSX
+4- Custom Components
+5- Styling in React with CSS
 
-> React is what defines JSX
+## Author
 
-2. If I were to console.log(page) in index.js, what would show up?
-
-> A JavaScript object. React elements that describe what React should eventually add to the real DOM for us.
-
-3. What's wrong with this code:
-
-```jsx
-const page = (
-    <h1>Hello</h1>
-    <p>This is my website!</p>
-)
-```
-
-> We need our JSX to be nested under a single parent element
-
-4. What does it mean for something to be "declarative" instead of "imperative"?
-
-> Declarative means I can tell the computer WHAT to do and expect it to handle the details. Imperative means I need to tell it HOW to do each step.
-
-5. What does it mean for something to be "composable"?
-
-> We have small pieces that we can put together to make something larger/greater than the individual pieces.
-
-6. What is a React component?
-
-> A reusable piece of your website that you can use over and over again.
-
-7. What's wrong with this code?
-
-```jsx
-function myComponent() {
-    return (
-        <small>I'm tiny text!</small>
-    )
-}
-```
-
-> React components need to be capitalized < PascalCase > `function MyComponent()`
-
-8. What's wrong with this code?
-
-```jsx
-function Header() {
-    return (
-        <header>
-            <nav>
-                <img src="./react-logo.png" width="40px" />
-            </nav>
-        </header>
-    )
-}
-
-ReactDOM.render(Header(), document.getElementById("root"))
-```
-
-> We need to use `ReactDOM.render(<Header />, document.getElementById("root"))`
+- Code by [Mohamed Essam](https://github.com/m-essam-s).
